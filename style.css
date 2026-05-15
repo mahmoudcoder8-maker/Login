@@ -1,0 +1,80 @@
+body{
+	background-image: url('image.png');
+	background-size: 100% 800px;
+	color: white;
+}
+
+.ag{
+	margin-top: 50%;
+	margin-left: 7%;
+}
+
+.bg{
+	margin: 18px;
+	margin-left: 140px;
+	font-size: 63px;
+}
+
+input{
+	outline: none;
+	background: none;
+	border: none;
+	font-size: 16px;
+	color: black;
+}
+
+input::placeholder{
+	color: gray;
+}
+
+.cg{
+	width: 95%;
+	height: 32px;
+	background: white;
+	filter: opacity(70%);
+}
+
+.dg{
+	width: 95%;
+	height: 32px;
+	background: white;
+	filter: opacity(70%);
+}
+
+i{
+	padding: 8px;
+	background: gray;
+	color: white;
+}
+
+.eg{
+	width: 95%;
+	height: 32px;
+	margin-top: 15px; /* تم تصحيح الخطأ هنا */
+	color: white;
+	font-size: 17px;
+}
+
+.box{
+	width: 20px;
+	height: 20px;
+	margin-right: 12px;
+}
+
+.hg{
+	margin-left: 70%;
+	padding: 10px;
+	font-size: 27px;
+	background: gray;
+	color: white;
+	filter: opacity(90%);
+	border: none;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.hg:hover{
+	background: white;
+	color: black;
+	transition: 0.5s;
+}
